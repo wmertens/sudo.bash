@@ -15,7 +15,7 @@ Then, simply use sudo as you would before.
 You can also wrap it in a script that changes your terminal color, like so:
 
     function setclr() {
-      local t=0               
+            local t=0               
 	    SetTerminalStyle $1                
 	    shift
 	    "$@"
