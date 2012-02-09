@@ -1,0 +1,9 @@
+This bash function will expand functions and aliases before running sudo.
+
+To use it, place a source ~/.sudo.bash (for example) in your .bashrc
+after copying the code to your ~/.sudo.bash, or copy the full code to your .bashrc.
+
+Then, simply use sudo as you would before.
+
+This function handles all sudo arguments. There is one extra argument, -x, which
+expands arguments as you, not as root. This is needed in some corner cases.
